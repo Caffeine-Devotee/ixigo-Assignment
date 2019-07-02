@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87A5223022CA1833003C7FD5 /* SampleFlightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5222F22CA1832003C7FD5 /* SampleFlightModel.swift */; };
+		87A5223222CA1911003C7FD5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5223122CA1911003C7FD5 /* Model.swift */; };
+		87A5223422CA19FF003C7FD5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5223322CA19FF003C7FD5 /* Network.swift */; };
 		87E6121722CA153C008DAC1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E6121622CA153C008DAC1E /* AppDelegate.swift */; };
 		87E6121922CA153C008DAC1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E6121822CA153C008DAC1E /* ViewController.swift */; };
 		87E6121C22CA153C008DAC1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E6121A22CA153C008DAC1E /* Main.storyboard */; };
 		87E6121E22CA1540008DAC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E6121D22CA1540008DAC1E /* Assets.xcassets */; };
 		87E6122122CA1540008DAC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E6121F22CA1540008DAC1E /* LaunchScreen.storyboard */; };
+		87F0560922CA86F1000C224D /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0560822CA86F1000C224D /* MyCell.swift */; };
+		C2D35B32309A5889804B391D /* Pods_ixigo_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9BC47593254898FC9B28E /* Pods_ixigo_Assignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014FF07289092C28E8166F08 /* Pods-ixigo Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ixigo Assignment.release.xcconfig"; path = "Target Support Files/Pods-ixigo Assignment/Pods-ixigo Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		05D9BC47593254898FC9B28E /* Pods_ixigo_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ixigo_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3446F2A6BA4D72CBE8255C00 /* Pods-ixigo Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ixigo Assignment.debug.xcconfig"; path = "Target Support Files/Pods-ixigo Assignment/Pods-ixigo Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		87A5222F22CA1832003C7FD5 /* SampleFlightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFlightModel.swift; sourceTree = "<group>"; };
+		87A5223122CA1911003C7FD5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		87A5223322CA19FF003C7FD5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		87E6121322CA153C008DAC1E /* ixigo Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ixigo Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E6121622CA153C008DAC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87E6121822CA153C008DAC1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,7 @@
 		87E6121D22CA1540008DAC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87E6122022CA1540008DAC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87E6122222CA1540008DAC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F0560822CA86F1000C224D /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D35B32309A5889804B391D /* Pods_ixigo_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87A5222E22CA1805003C7FD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87A5222F22CA1832003C7FD5 /* SampleFlightModel.swift */,
+				87A5223122CA1911003C7FD5 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		87E6120A22CA153C008DAC1E = {
 			isa = PBXGroup;
 			children = (
 				87E6121522CA153C008DAC1E /* ixigo Assignment */,
 				87E6121422CA153C008DAC1E /* Products */,
+				A41A4A733597A1FBAB756D3C /* Pods */,
+				C705ADF37815CE5B67A198FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,34 @@
 		87E6121522CA153C008DAC1E /* ixigo Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				87A5222E22CA1805003C7FD5 /* Model */,
 				87E6121622CA153C008DAC1E /* AppDelegate.swift */,
 				87E6121822CA153C008DAC1E /* ViewController.swift */,
+				87A5223322CA19FF003C7FD5 /* Network.swift */,
+				87F0560822CA86F1000C224D /* MyCell.swift */,
 				87E6121A22CA153C008DAC1E /* Main.storyboard */,
 				87E6121D22CA1540008DAC1E /* Assets.xcassets */,
 				87E6121F22CA1540008DAC1E /* LaunchScreen.storyboard */,
 				87E6122222CA1540008DAC1E /* Info.plist */,
 			);
 			path = "ixigo Assignment";
+			sourceTree = "<group>";
+		};
+		A41A4A733597A1FBAB756D3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3446F2A6BA4D72CBE8255C00 /* Pods-ixigo Assignment.debug.xcconfig */,
+				014FF07289092C28E8166F08 /* Pods-ixigo Assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C705ADF37815CE5B67A198FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D9BC47593254898FC9B28E /* Pods_ixigo_Assignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87E6122522CA1540008DAC1E /* Build configuration list for PBXNativeTarget "ixigo Assignment" */;
 			buildPhases = (
+				952A7704320603B563C0BE94 /* [CP] Check Pods Manifest.lock */,
 				87E6120F22CA153C008DAC1E /* Sources */,
 				87E6121022CA153C008DAC1E /* Frameworks */,
 				87E6121122CA153C008DAC1E /* Resources */,
+				7ECEF64C0C04ED39CEF46163 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +176,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ECEF64C0C04ED39CEF46163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ixigo Assignment/Pods-ixigo Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ixigo Assignment/Pods-ixigo Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ixigo Assignment/Pods-ixigo Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		952A7704320603B563C0BE94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ixigo Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87E6120F22CA153C008DAC1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A5223422CA19FF003C7FD5 /* Network.swift in Sources */,
 				87E6121922CA153C008DAC1E /* ViewController.swift in Sources */,
 				87E6121722CA153C008DAC1E /* AppDelegate.swift in Sources */,
+				87F0560922CA86F1000C224D /* MyCell.swift in Sources */,
+				87A5223022CA1833003C7FD5 /* SampleFlightModel.swift in Sources */,
+				87A5223222CA1911003C7FD5 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +372,7 @@
 		};
 		87E6122622CA1540008DAC1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3446F2A6BA4D72CBE8255C00 /* Pods-ixigo Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +385,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "CaffeineDevotee.ixigo-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		87E6122722CA1540008DAC1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014FF07289092C28E8166F08 /* Pods-ixigo Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "CaffeineDevotee.ixigo-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
